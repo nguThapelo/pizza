@@ -198,8 +198,11 @@ p {
 }
 
 @media only screen and (min-width: 33.75em) {  /* 540px */
+  
+  
   .container {
     width: 80%;
+ 
   }
 }
 
@@ -273,6 +276,6 @@ p {
   .container {
     width: 75%;
     max-width: 60rem;
-   
-  }
+  
+  } 
 }
