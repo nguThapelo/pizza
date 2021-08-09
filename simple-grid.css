@@ -202,7 +202,6 @@ p {
   
   .container {
     width: 80%;
- 
   }
 }
 
@@ -222,10 +221,7 @@ p {
   .col-4 {
     width: 29.33%;
     background-color: #E5DADA;
-   
-  margin-top: 1em;
-  padding-top: 1em;
- 
+
  
   }
 
@@ -273,9 +269,26 @@ p {
 }
 
 @media only screen and (min-width: 60em) { /* 960px */
+  
   .container {
     width: 75%;
     max-width: 60rem;
-  
   } 
+}
+
+
+.put {
+  margin: 0.3em;
+  padding: 0.3em;
+  border: 2px solid sandybrown;
+}
+
+.button {
+border: none;
+background-color: #E5DADA;
+
+}
+
+.button:hover {
+  cursor: pointer;
 }
