@@ -221,7 +221,6 @@ p {
   .col-4 {
     width: 29.33%;
     background-color: #E5DADA;
-
  
   }
 
@@ -269,10 +268,21 @@ p {
 }
 
 @media only screen and (min-width: 60em) { /* 960px */
-  
+ 
   .container {
     width: 75%;
     max-width: 60rem;
+    
   } 
+}
+
+@media only screen and (max-width: 80em) {
+  .col-4 {
+    background-color: #E2EB98;
+  }
+
+  .col-12 {
+    background-color: #E2EB98;
+  }
 }
 
